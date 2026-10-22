@@ -35,10 +35,13 @@ bin/
 ### Minecraft Modding ###
 run/
 run-gametest/
+run-client-no-hmi/
+run-client-hmi/
 /logs/
 /verification-*.log
 /regression-failure-capability-*.log
 /regression-bounds-red.log
+/regression-held-red.log
 /runClient*.log
 !**/src/**/run/
 **/src/generated/**/.cache/

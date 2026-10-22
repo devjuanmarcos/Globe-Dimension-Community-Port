@@ -1,0 +1,12 @@
+﻿[18:07:10] [Render thread/INFO] [me.mo.dg.ne.te.GlobeHeldItemRuntimeChecks/]: [Globe held item verification] context=FIRST_PERSON_RIGHT_HAND, emptyVertices=24, builtVertices=48
+[18:07:10] [Render thread/INFO] [me.mo.dg.ne.te.GlobeHeldItemRuntimeChecks/]: [Globe held item verification] context=FIRST_PERSON_LEFT_HAND, emptyVertices=24, builtVertices=48
+[18:07:10] [Render thread/INFO] [me.mo.dg.ne.te.GlobeHeldItemRuntimeChecks/]: [Globe held item verification] context=THIRD_PERSON_RIGHT_HAND, emptyVertices=24, builtVertices=48
+[18:07:10] [Render thread/INFO] [me.mo.dg.ne.te.GlobeHeldItemRuntimeChecks/]: [Globe held item verification] context=THIRD_PERSON_LEFT_HAND, emptyVertices=24, builtVertices=48
+[18:07:10] [Render thread/INFO] [me.mo.dg.ne.te.GlobeHeldItemRuntimeChecks/]: [Globe held item verification] context=GUI, emptyVertices=24, builtVertices=48
+[18:07:10] [Render thread/INFO] [me.mo.dg.ne.te.GlobeHeldItemRuntimeChecks/]: [Globe held item verification] PASS: holdMyItems=true, empty/built, five display contexts
+[18:08:14] [Render thread/INFO] [me.mo.dg.ne.te.GlobeHeldItemRuntimeChecks/]: [Globe held item verification] context=FIRST_PERSON_RIGHT_HAND, emptyVertices=24, builtVertices=48
+[18:08:14] [Render thread/INFO] [me.mo.dg.ne.te.GlobeHeldItemRuntimeChecks/]: [Globe held item verification] context=FIRST_PERSON_LEFT_HAND, emptyVertices=24, builtVertices=48
+[18:08:14] [Render thread/INFO] [me.mo.dg.ne.te.GlobeHeldItemRuntimeChecks/]: [Globe held item verification] context=THIRD_PERSON_RIGHT_HAND, emptyVertices=24, builtVertices=48
+[18:08:14] [Render thread/INFO] [me.mo.dg.ne.te.GlobeHeldItemRuntimeChecks/]: [Globe held item verification] context=THIRD_PERSON_LEFT_HAND, emptyVertices=24, builtVertices=48
+[18:08:14] [Render thread/INFO] [me.mo.dg.ne.te.GlobeHeldItemRuntimeChecks/]: [Globe held item verification] context=GUI, emptyVertices=24, builtVertices=48
+[18:08:14] [Render thread/INFO] [me.mo.dg.ne.te.GlobeHeldItemRuntimeChecks/]: [Globe held item verification] PASS: holdMyItems=false, empty/built, five display contexts

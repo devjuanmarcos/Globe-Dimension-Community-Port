@@ -1,0 +1,12 @@
+{
+  "required": false,
+  "minVersion": "0.8",
+  "package": "me.modmuss50.dg.neoforge.client.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "HoldMyItemsRenderHelperMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

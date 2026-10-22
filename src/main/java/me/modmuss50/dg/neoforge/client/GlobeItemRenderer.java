@@ -59,8 +59,7 @@ public final class GlobeItemRenderer extends BlockEntityWithoutLevelRenderer {
             pose.popPose();
         }
 
-        // Item display transforms shrink the model; use a sturdier pedestal so an empty globe
-        // remains visible in first-person and third-person hand views.
-        GlobeBaseModel.render(base, pose, buffers, packedLight, OverlayTexture.NO_OVERLAY, 0.25f);
+        // Preserve the same thin pedestal as the placed globe, including for empty items.
+        GlobeBaseModel.render(base, pose, buffers, packedLight, OverlayTexture.NO_OVERLAY);
     }
 }

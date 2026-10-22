@@ -59,6 +59,16 @@ neoForge {
             systemProperty 'neoforge.enabledGameTestNamespaces', project.mod_id
         }
 
+        clientWithoutHoldMyItems {
+            client()
+            gameDirectory = project.file('run-client-no-hmi')
+        }
+
+        clientWithHoldMyItems {
+            client()
+            gameDirectory = project.file('run-client-hmi')
+        }
+
         server {
             server()
             programArgument '--nogui'
@@ -85,6 +95,11 @@ neoForge {
 
         // applies to all the run configs above
         configureEach {
+            if (project.hasProperty('verifyHeldItem')) {
+                systemProperty 'globedimension.verifyHeldItem', 'true'
+                systemProperty 'globedimension.exitAfterHeldItemVerification', 'true'
+                systemProperty 'mixin.debug.export', 'true'
+            }
             // Recommended logging data for a userdev environment
             // The markers can be added/remove as needed separated by commas.
             // "SCAN": For mods scan.

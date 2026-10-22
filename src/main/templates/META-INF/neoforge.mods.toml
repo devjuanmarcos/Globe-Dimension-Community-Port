@@ -49,6 +49,9 @@ description='''
 An enterable globe that displays an enclosed block and entity region.
 '''
 
+[[mixins]]
+config="globedimension.client.mixins.json"
+
 # The [[mixins]] block allows you to declare your mixin config to FML so that it gets loaded.
 #[[mixins]]
 #config="${mod_id}.mixins.json"

@@ -9,12 +9,16 @@ Mantido por **Juan Marcos de Souza Texe — kikitotv**. Baseado no trabalho orig
 ## Instalação
 
 1. Instale Minecraft 1.21.1 com NeoForge 21.1.259 e Java 21.
-2. Baixe o [JAR 1.5.4](releases/1.5.4/globedimension-1.5.4-neoforge.1.21.1.jar) e coloque-o na pasta `mods` do perfil. Em servidor dedicado, instale o mod no servidor e nos clientes.
+2. Baixe o [JAR 1.5.6](releases/1.5.6/globedimension-1.5.6-neoforge.1.21.1.jar) e coloque-o na pasta `mods` do perfil. Em servidor dedicado, instale o mod no servidor e nos clientes.
 3. Use somente uma versão do Globe no perfil e reinicie o jogo após substituir o JAR.
 
-Os detalhes da versão e o checksum ficam em [releases/1.5.4](releases/1.5.4/LEIA-ANTES.md).
+Os detalhes da versão e o checksum ficam em [releases/1.5.6](releases/1.5.6/LEIA-ANTES.md).
 
-## Versão 1.5.4
+## Versão 1.5.6
+
+Corrige o item invisível na mão com Hold My Items, restaura a base fina e remove o deslocamento vertical extra em primeira pessoa. [Notas da versão](releases/1.5.6/LEIA-ANTES.md).
+
+## Base funcional 1.5.4
 
 A versão foi validada pelo mantenedor no jogo: miniatura colocada, construção interna, vista do mundo externo e permanência do piso/cenário ao girar a câmera.
 
@@ -45,6 +49,7 @@ Verificação registrada: **11 testes JUnit passaram** na 1.5.4, incluindo 3.600
 
 - [Correção da premissa e separação entre sala e cenário](docs/analysis/2026-10-22-premissa-e-correcao-1.5.3.md)
 - [Diagnóstico e correção da visibilidade](docs/analysis/2026-10-22-frustum-1.5.4.md)
+- [Correção do item na mão com Hold My Items — 1.5.5 em validação visual](docs/analysis/2026-10-22-held-item-hmi-1.5.5.md)
 - [Histórico da conversão e decisões](docs/analysis/port-decisions.md)
 - [Fila de regressões e verificações](docs/analysis/visual-regression-queue.md)
 
