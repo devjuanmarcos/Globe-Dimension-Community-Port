@@ -34,6 +34,12 @@ bin/
 
 ### Minecraft Modding ###
 run/
+run-gametest/
+/logs/
+/verification-*.log
+/regression-failure-capability-*.log
+/regression-bounds-red.log
+/runClient*.log
 !**/src/**/run/
 **/src/generated/**/.cache/
 repo/
